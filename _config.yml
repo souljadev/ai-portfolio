@@ -1,0 +1,16 @@
+title: "Brendan Moy — AI Product Manager"
+description: "AI PM portfolio: projects, demos, and product case studies"
+theme: jekyll-theme-minimal
+
+# Optional for SEO/sitemap/feed (works with GitHub Pages + Jekyll 3.9.x)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Housekeeping
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
