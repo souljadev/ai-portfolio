@@ -1,12 +1,30 @@
 title: "Brendan Moy — AI Product Manager"
 description: "AI PM portfolio: projects, demos, and product case studies"
 theme: jekyll-theme-minimal
-
-# Optional for SEO/sitemap/feed (works with GitHub Pages + Jekyll 3.9.x)
+astraai:
+  brand_name: "Brendan Moy"
+  accent: "#6A5ACD"
+  accent2: "#00C2FF"
+  bg: "#0B0F17"
+  text: "#E6ECF1"
+  muted: "#95A3B3"
+logo: /assets/img/avatar.png
+show_downloads: false
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+nav:
+- name: Home
+  link: /
+- name: Projects
+  link: /projects
+- name: About
+  link: /about
+- name: Blog
+  link: /blog
+
+
 
 # Housekeeping
 exclude:

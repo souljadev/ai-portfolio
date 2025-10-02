@@ -1,0 +1,18 @@
+<!-- _includes/default.html (fix link + class in case this file is being used elsewhere) -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  {%- seo -%}
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/astraai.css">
+</head>
+
+<body class="astraai">
+  {{ content }}
+</body>
+
+</html>
