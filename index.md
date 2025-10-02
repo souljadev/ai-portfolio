@@ -1,14 +1,18 @@
----
+--- 
+# index.md
 layout: default
 title: Home
 ---
-# Brendan Moy
-**AI Product Manager** | Platform & Developer Experience | Restaurant Tech • Real Estate • Fintech
 
+## {{ site.astraai.brand_name | default: site.title }}
 
-- I scope and ship pragmatic AI products end‑to‑end.
-- Background: Platform PM (APIs, integrations), hospitality operator, data‑driven builder.
-- ↓ Featured projects and case studies.
+**AI Product Manager** · Platform & Developer Experience · Restaurant Tech • Real Estate • Fintech
 
+[View Projects →](/projects){:.btn}
+[About Me →](/about){:.btn}
 
-[View Projects →](/projects) • [About →](/about) • [Resume (PDF)](/assets/<resume>.pdf)
+## Featured Work
+
+- AI Realtor Assistant — semantic search + RAG
+- Menu Hasher 2.0 — embeddings for duplicate detection
+- WSB Sentiment Agent — scrape → summarize → visualize
